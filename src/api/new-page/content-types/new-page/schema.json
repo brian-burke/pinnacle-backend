@@ -4,7 +4,8 @@
   "info": {
     "singularName": "new-page",
     "pluralName": "new-pages",
-    "displayName": "newPage"
+    "displayName": "newPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,17 @@
         "sections.rich-text",
         "sections.testimonials-group"
       ]
+    },
+    "shortText": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "metaData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata"
     }
   }
 }
