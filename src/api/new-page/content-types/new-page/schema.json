@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_pages",
+  "info": {
+    "singularName": "new-page",
+    "pluralName": "new-pages",
+    "displayName": "newPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.bottom-actions",
+        "sections.carousel",
+        "sections.feature-columns-group",
+        "sections.feature-rows-group",
+        "sections.hero",
+        "sections.large-video",
+        "sections.lead-form",
+        "sections.pricing",
+        "sections.rich-text",
+        "sections.testimonials-group"
+      ]
+    }
+  }
+}
