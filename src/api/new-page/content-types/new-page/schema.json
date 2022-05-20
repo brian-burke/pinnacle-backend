@@ -8,15 +8,39 @@
     "description": ""
   },
   "options": {
+    "increments": true,
+    "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
-    "content": {
+    "shortName": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "contentSections": {
       "type": "dynamiczone",
       "components": [
         "sections.bottom-actions",
-        "sections.carousel",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
         "sections.hero",
@@ -24,19 +48,23 @@
         "sections.lead-form",
         "sections.pricing",
         "sections.rich-text",
-        "sections.testimonials-group"
-      ]
-    },
-    "shortText": {
-      "type": "string"
+        "sections.testimonials-group",
+        "sections.carousel"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
-      "type": "string"
-    },
-    "metaData": {
-      "type": "component",
-      "repeatable": false,
-      "component": "meta.metadata"
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "regex": "^$|^[a-zA-Z/-]+$"
     }
   }
 }
