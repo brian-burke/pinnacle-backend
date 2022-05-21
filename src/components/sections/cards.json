@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_cards",
+  "info": {
+    "displayName": "cards",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    }
+  }
+}

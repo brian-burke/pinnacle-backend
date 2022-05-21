@@ -41,6 +41,7 @@
       "type": "dynamiczone",
       "components": [
         "sections.bottom-actions",
+        "sections.carousel",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
         "sections.hero",
@@ -49,7 +50,7 @@
         "sections.pricing",
         "sections.rich-text",
         "sections.testimonials-group",
-        "sections.carousel"
+        "sections.cards"
       ],
       "pluginOptions": {
         "i18n": {

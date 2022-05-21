@@ -2,12 +2,15 @@
   "collectionName": "components_sections_carousels",
   "info": {
     "displayName": "Carousel",
-    "icon": "ambulance"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "test": {
-      "type": "string"
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.slide"
     }
   }
 }
