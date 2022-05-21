@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "new_pages",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
-    "name": "page",
+    "singularName": "new-page",
+    "pluralName": "new-pages",
+    "displayName": "Pages",
     "description": ""
   },
   "options": {
@@ -42,6 +41,7 @@
       "type": "dynamiczone",
       "components": [
         "sections.bottom-actions",
+        "sections.carousel",
         "sections.feature-columns-group",
         "sections.feature-rows-group",
         "sections.hero",
@@ -50,7 +50,7 @@
         "sections.pricing",
         "sections.rich-text",
         "sections.testimonials-group",
-        "sections.carousel"
+        "sections.cards"
       ],
       "pluginOptions": {
         "i18n": {

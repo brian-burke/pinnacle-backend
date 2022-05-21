@@ -3,7 +3,8 @@
   "info": {
     "name": "FooterSection",
     "displayName": "Footer section",
-    "icon": "chevron-circle-down"
+    "icon": "chevron-circle-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
